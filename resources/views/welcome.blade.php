@@ -13,7 +13,7 @@
     filter: sepia(75%);
     background-position-y: 71%;
     width: 100vw;
-    height: 86vh;
+    height: 86.9vh;
 }
 .white_card{
     background-color:rgba(220 234 247 / 22%);
