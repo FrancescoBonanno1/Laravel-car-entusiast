@@ -1,4 +1,9 @@
 @extends('layouts.app')
-@section
+@section('content')
+@foreach ($cars as $car){
 
+    
+}
+    
+@endforeach
 @endsection
