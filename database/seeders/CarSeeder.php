@@ -16,6 +16,7 @@ class CarSeeder extends Seeder
         $cars = [
             [
                 'name' => 'Supra',
+                'image'=> 'suprawet.jpg',
                 'maker' => 'Toyota',
                 'power' => 'Varia a seconda della versione',
                 'drivetrain' => 'RWD',
@@ -23,6 +24,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Skyline GT-R',
+                'image'=> 'skylineGTR.jpg',
                 'maker' => 'Nissan',
                 'power' => 'Varia a seconda della versione',
                 'drivetrain' => 'AWD',
@@ -30,6 +32,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Lancer Evolution',
+                'image'=> 'LancerevoV.jpg',
                 'maker' => 'Mitsubishi',
                 'power' => 'Varia a seconda della versione',
                 'drivetrain' => 'AWD',
@@ -37,6 +40,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'NSX',
+                'image'=> 'NSX.jpg',
                 'maker' => 'Honda',
                 'power' => 'Varia a seconda della versione',
                 'drivetrain' => 'RWD/AWD',
@@ -44,6 +48,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'RX-7',
+                'image'=> 'Rx7.jpg',
                 'maker' => 'Mazda',
                 'power' => 'Varia a seconda della versione',
                 'drivetrain' => 'RWD',
@@ -51,6 +56,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => '3000GT',
+                'image'=> '3000gt.jpg',
                 'maker' => 'Mitsubishi',
                 'power' => 'Varia a seconda della versione',
                 'drivetrain' => 'AWD',
@@ -58,6 +64,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Impreza WRX',
+                'image'=> 'impreza22b.jpg',
                 'maker' => 'Subaru',
                 'power' => 'Varia a seconda della versione',
                 'drivetrain' => 'AWD',
@@ -65,6 +72,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Silvia',
+                'image'=> '3000gt.jpg',
                 'maker' => 'Nissan',
                 'power' => 'Varia a seconda della versione',
                 'drivetrain' => 'RWD',
@@ -72,6 +80,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Celica',
+                'image' => 'celicaFull.jpg',
                 'maker' => 'Toyota',
                 'power' => 'Varia a seconda della versione',
                 'drivetrain' => 'FWD/AWD',
@@ -79,6 +88,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'RX-8',
+                'image'=> '3000gt.jpg',
                 'maker' => 'Mazda',
                 'power' => 'Varia a seconda della versione',
                 'drivetrain' => 'RWD',
