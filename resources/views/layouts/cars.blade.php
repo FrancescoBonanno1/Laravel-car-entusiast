@@ -8,10 +8,12 @@
 <h2>{{$car->maker}}</h2>
 <span>{{$car->power}}</span>
 </div>
-
-
 @endforeach
+<button id="previous"></button>
+<button id="next"></button>
+<script src="@vite('js/cars.js')"></script>
 </section>
+
 <style>
 main{
     background-image: url("/img/red.png");
