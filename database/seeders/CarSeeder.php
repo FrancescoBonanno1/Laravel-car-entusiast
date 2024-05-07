@@ -16,6 +16,7 @@ class CarSeeder extends Seeder
         $cars = [
             [
                 'name' => 'Supra',
+                'raceCar'=>'false',
                 'image'=> 'suprawet.jpg',
                 'maker' => 'Toyota',
                 'power' => 'Varia a seconda della versione',
@@ -24,6 +25,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Skyline GT-R',
+                'raceCar'=>'false',
                 'image'=> 'skylineGTR.jpg',
                 'maker' => 'Nissan',
                 'power' => 'Varia a seconda della versione',
@@ -32,6 +34,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Lancer Evolution',
+                'raceCar'=>'false',
                 'image'=> 'LancerevoV.jpg',
                 'maker' => 'Mitsubishi',
                 'power' => 'Varia a seconda della versione',
@@ -40,6 +43,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'NSX',
+                'raceCar'=>'false',
                 'image'=> 'NSX.jpg',
                 'maker' => 'Honda',
                 'power' => 'Varia a seconda della versione',
@@ -48,6 +52,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'RX-7',
+                'raceCar'=>'false',
                 'image'=> 'Rx7.jpg',
                 'maker' => 'Mazda',
                 'power' => 'Varia a seconda della versione',
@@ -56,6 +61,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => '3000GT',
+                'raceCar'=>'false',
                 'image'=> '3000gt.jpg',
                 'maker' => 'Mitsubishi',
                 'power' => 'Varia a seconda della versione',
@@ -64,6 +70,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Impreza WRX',
+                'raceCar'=>'false',
                 'image'=> 'impreza22b.jpg',
                 'maker' => 'Subaru',
                 'power' => 'Varia a seconda della versione',
@@ -72,6 +79,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Silvia',
+                'raceCar'=>'false',
                 'image'=> '3000gt.jpg',
                 'maker' => 'Nissan',
                 'power' => 'Varia a seconda della versione',
@@ -80,6 +88,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Celica',
+                'raceCar'=>'false',
                 'image' => 'celicaFull.jpg',
                 'maker' => 'Toyota',
                 'power' => 'Varia a seconda della versione',
@@ -88,11 +97,66 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'RX-8',
+                'raceCar'=>'false',
                 'image'=> '3000gt.jpg',
                 'maker' => 'Mazda',
                 'power' => 'Varia a seconda della versione',
                 'drivetrain' => 'RWD',
                 'description' => 'La Mazda RX-8 è stata la successiva evoluzione della leggendaria RX-7. Offriva un design unico a quattro porte e un motore rotativo che la rendeva unica nel suo genere.',
+            ],
+            [
+                'name' => 'Calsonic Nissan GTR (r32)',
+                'raceCar'=>'true',
+                'image'=> 'calsonic.jpg',
+                'maker' => 'Nissan',
+                'power' => '600+ hp',
+                'drivetrain' => 'AWD',
+                'description' => 'La famosa Calsonic Skyline r32 rappresenta la formula vincente dell ingegneria Nissan, con un RB26DETT da 2,6 litri twinturbo sviluppa una potenza che supera i 600 cavalli, unita poi al sistema di ripartizione della coppia ATTESA E-TS ed al sistema di quattro ruote sterzanti Super-Hicas,sbaragliò la competizione in quegli anni, venendo battezzata per sempre dalla stampa con il soprannome di : GODZILLA. ',
+            ],
+            [
+                'name' => 'Suzuki Escudo (Pikes Peak version) Dirt trial car',
+                'raceCar'=>'true',
+                'image'=> 'Escudo.jpg',
+                'maker' => 'Suzuki',
+                'power' => '981 hp',
+                'drivetrain' => 'AWD',
+                'description' => 'La suzuki Escudo è il mostro generato per afrrontare la Pikes Peak International Hill Climb, gara che prevede la risalita del monte Pikes Peak senza limitazioni su specifiche e modello di auto. Detto ciò la Suzuki ha sviluppato una bestia dotata di ben due motori 2,6 litri twinturbo montato su ogni asse, arrivando così a 981 cv di potenza con un peso di 800kg, ottenendo così un rapporto peso/potenza di 0,81kg per cv. Dal lontano 1998 quest auto fa innamorare appassionati di motori grazie alle numerosissime comparse nella serie Gran Turismo. ',
+            ],
+            [
+                'name' => 'Castrol Toms Supra',
+                'raceCar'=>'true',
+                'image'=> 'castrol_supra.jpg',
+                'maker' => 'Toyota',
+                'power' => '493 hp',
+                'drivetrain' => 'RWD',
+                'description' => 'La Castrol Toms Supra è la vettura più iconica della serie Super GT Giapponese, equipaggiata con un motore diverso dal v6 3.0 litri della Supra stradale, cioè un motore 2.0 litri turbo ed un peso di 800 kg, si è da sempre distinta sul circuito, dando notevole filo da torcere alla skyline della Nissan, dando così inizio alla rivalità tra le due case automobilisitche che continua ancora oggi. Famosa in quanto è anche la più bella vettura nel vestire la livrea Castrol',
+            ],
+            [
+                'name' => 'RE Amemiya RX-7 Asparadrink',
+                'raceCar'=>'true',
+                'image'=> 'RE_rx7.jpg',
+                'maker' => 'Mazda',
+                'power' => '311',
+                'drivetrain' => 'RWD',
+                'description' => 'Questa versione preparata da RE Amemiya ha performato in modo eccellente nei campionati della serie GT300 della Super GT Giapponese, equipaggiata con un motore rotativo a tre rotori riesce a sviluppare 311 cavalli con 1100 kg di peso. La RE Amemiya RX7 Asparadrink è un esempio eccellente di ingegneria automobilistica giapponese e di tuning specializzato, che ha lasciato un segno indelebile nel mondo delle corse GT',
+            ],
+            [
+                'name' => 'RE Amemiya RX-7 Asparadrink',
+                'raceCar'=>'true',
+                'image'=> 'RE_rx7.jpg',
+                'maker' => 'Mazda',
+                'power' => '311',
+                'drivetrain' => 'RWD',
+                'description' => 'Questa versione preparata da RE Amemiya ha performato in modo eccellente nei campionati della serie GT300 della Super GT Giapponese, equipaggiata con un motore rotativo a tre rotori riesce a sviluppare 311 cavalli con 1100 kg di peso. La RE Amemiya RX7 Asparadrink è un esempio eccellente di ingegneria automobilistica giapponese e di tuning specializzato, che ha lasciato un segno indelebile nel mondo delle corse GT',
+            ],
+            [
+                'name' => 'Alfa Romeo 155 DTM',
+                'raceCar'=>'true',
+                'image'=> '155.jpg',
+                'maker' => 'Alfa Romeo',
+                'power' => '400 hp',
+                'drivetrain' => 'AWD',
+                'description' => 'L alfa romeo 155 SuperTurismo è passata alla storia per essere stata l incubo degli ingegneri tedeschi durante il campionato DTMl, equipafggiata con un sistema di trazione integrale ed un motore da 400cv 2,5 litri. Nota a molti appassionati italiani anche la vicenda di Alessandro Nannini a Singen (Ha fatto bene!).',
             ],
         ];
 
@@ -102,4 +166,4 @@ class CarSeeder extends Seeder
             $newCar->save();
         }
     }
-}
+} 
