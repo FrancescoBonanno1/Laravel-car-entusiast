@@ -16,7 +16,7 @@ class CarSeeder extends Seeder
         $cars = [
             [
                 'name' => 'Supra',
-                'raceCar'=>'false',
+                'raceCar'=>'0',
                 'image'=> 'suprawet.jpg',
                 'maker' => 'Toyota',
                 'power' => 'Varia a seconda della versione',
@@ -25,7 +25,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Skyline GT-R',
-                'raceCar'=>'false',
+                'raceCar'=>'0',
                 'image'=> 'skylineGTR.jpg',
                 'maker' => 'Nissan',
                 'power' => 'Varia a seconda della versione',
@@ -34,7 +34,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Lancer Evolution',
-                'raceCar'=>'false',
+                'raceCar'=>'0',
                 'image'=> 'LancerevoV.jpg',
                 'maker' => 'Mitsubishi',
                 'power' => 'Varia a seconda della versione',
@@ -43,7 +43,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'NSX',
-                'raceCar'=>'false',
+                'raceCar'=>'0',
                 'image'=> 'NSX.jpg',
                 'maker' => 'Honda',
                 'power' => 'Varia a seconda della versione',
@@ -52,7 +52,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'RX-7',
-                'raceCar'=>'false',
+                'raceCar'=>'0',
                 'image'=> 'Rx7.jpg',
                 'maker' => 'Mazda',
                 'power' => 'Varia a seconda della versione',
@@ -61,7 +61,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => '3000GT',
-                'raceCar'=>'false',
+                'raceCar'=>'0',
                 'image'=> '3000gt.jpg',
                 'maker' => 'Mitsubishi',
                 'power' => 'Varia a seconda della versione',
@@ -70,7 +70,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Impreza WRX',
-                'raceCar'=>'false',
+                'raceCar'=>'0',
                 'image'=> 'impreza22b.jpg',
                 'maker' => 'Subaru',
                 'power' => 'Varia a seconda della versione',
@@ -79,7 +79,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Silvia',
-                'raceCar'=>'false',
+                'raceCar'=>'0',
                 'image'=> '3000gt.jpg',
                 'maker' => 'Nissan',
                 'power' => 'Varia a seconda della versione',
@@ -88,7 +88,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Celica',
-                'raceCar'=>'false',
+                'raceCar'=>'0',
                 'image' => 'celicaFull.jpg',
                 'maker' => 'Toyota',
                 'power' => 'Varia a seconda della versione',
@@ -97,7 +97,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'RX-8',
-                'raceCar'=>'false',
+                'raceCar'=>'0',
                 'image'=> '3000gt.jpg',
                 'maker' => 'Mazda',
                 'power' => 'Varia a seconda della versione',
@@ -106,7 +106,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Calsonic Nissan GTR (r32)',
-                'raceCar'=>'true',
+                'raceCar'=>'1',
                 'image'=> 'calsonic.jpg',
                 'maker' => 'Nissan',
                 'power' => '600+ hp',
@@ -115,7 +115,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Suzuki Escudo (Pikes Peak version) Dirt trial car',
-                'raceCar'=>'true',
+                'raceCar'=>'1',
                 'image'=> 'Escudo.jpg',
                 'maker' => 'Suzuki',
                 'power' => '981 hp',
@@ -124,7 +124,7 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'Castrol Toms Supra',
-                'raceCar'=>'true',
+                'raceCar'=>'1',
                 'image'=> 'castrol_supra.jpg',
                 'maker' => 'Toyota',
                 'power' => '493 hp',
@@ -133,25 +133,16 @@ class CarSeeder extends Seeder
             ],
             [
                 'name' => 'RE Amemiya RX-7 Asparadrink',
-                'raceCar'=>'true',
+                'raceCar'=>'1',
                 'image'=> 'RE_rx7.jpg',
                 'maker' => 'Mazda',
-                'power' => '311',
-                'drivetrain' => 'RWD',
-                'description' => 'Questa versione preparata da RE Amemiya ha performato in modo eccellente nei campionati della serie GT300 della Super GT Giapponese, equipaggiata con un motore rotativo a tre rotori riesce a sviluppare 311 cavalli con 1100 kg di peso. La RE Amemiya RX7 Asparadrink è un esempio eccellente di ingegneria automobilistica giapponese e di tuning specializzato, che ha lasciato un segno indelebile nel mondo delle corse GT',
-            ],
-            [
-                'name' => 'RE Amemiya RX-7 Asparadrink',
-                'raceCar'=>'true',
-                'image'=> 'RE_rx7.jpg',
-                'maker' => 'Mazda',
-                'power' => '311',
+                'power' => '311 hp',
                 'drivetrain' => 'RWD',
                 'description' => 'Questa versione preparata da RE Amemiya ha performato in modo eccellente nei campionati della serie GT300 della Super GT Giapponese, equipaggiata con un motore rotativo a tre rotori riesce a sviluppare 311 cavalli con 1100 kg di peso. La RE Amemiya RX7 Asparadrink è un esempio eccellente di ingegneria automobilistica giapponese e di tuning specializzato, che ha lasciato un segno indelebile nel mondo delle corse GT',
             ],
             [
                 'name' => 'Alfa Romeo 155 DTM',
-                'raceCar'=>'true',
+                'raceCar'=>'1',
                 'image'=> '155.jpg',
                 'maker' => 'Alfa Romeo',
                 'power' => '400 hp',
