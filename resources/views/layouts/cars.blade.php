@@ -8,6 +8,8 @@
     <h2>{{$car->maker}}</h2>
     <span>{{$car->power}}</span>
 </div>
+<button id="next"></button>
+<button id="previous"></button>
 @endforeach
 <script>
 document.addEventListener("DOMContentLoaded", function() {

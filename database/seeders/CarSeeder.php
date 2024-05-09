@@ -149,6 +149,15 @@ class CarSeeder extends Seeder
                 'drivetrain' => 'AWD',
                 'description' => 'L alfa romeo 155 SuperTurismo è passata alla storia per essere stata l incubo degli ingegneri tedeschi durante il campionato DTMl, equipafggiata con un sistema di trazione integrale ed un motore da 400cv 2,5 litri. Nota a molti appassionati italiani anche la vicenda di Alessandro Nannini a Singen (Ha fatto bene!).',
             ],
+            [
+                'name' => 'Lancia Stratos',
+                'raceCar'=>'1',
+                'image'=> 'lancia.jpg',
+                'maker' => 'Lancia',
+                'power' => '400 hp',
+                'drivetrain' => 'RWD',
+                'description' => 'L alfa romeo 155 SuperTurismo è passata alla storia per essere stata l incubo degli ingegneri tedeschi durante il campionato DTMl, equipafggiata con un sistema di trazione integrale ed un motore da 400cv 2,5 litri. Nota a molti appassionati italiani anche la vicenda di Alessandro Nannini a Singen (Ha fatto bene!).',
+            ],
         ];
 
         foreach ($cars as $car) {
