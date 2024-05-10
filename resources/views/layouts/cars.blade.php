@@ -6,17 +6,23 @@
     <h1>{{$car->name}}</h1>
     <img src="../img/{{$car->image}}" alt="img">
     <h2>{{$car->maker}}</h2>
+    <p>{{$car->description}}</p>
     <span>{{$car->power}}</span>
 </div>
-<button id="next"></button>
-<button id="previous"></button>
 @endforeach
+<button id="next">Successiva</button>
+<button id="previous">Precedente</button>
+<audio controls autoplay>
+  <source src="{{ asset('songs/AnOldBassman.mp3') }}" type="audio/mpeg">
+Il tuo browser non supporta il formato audio.
+</audio>
+</section>
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Seleziona tutte le carte all'interno del carosello
-  const cards = document.querySelectorAll('.card');
-  // Variabile per tenere traccia dell'indice della carta corrente
-  let currentIndex = 0;
+  document.addEventListener("DOMContentLoaded", function() {
+    // Seleziona tutte le carte all'interno del carosello
+    const cards = document.querySelectorAll('.card');
+    // Variabile per tenere traccia dell'indice della carta corrente
+    let currentIndex = 0;
 
   // Funzione per mostrare una carta specifica e nascondere le altre
   function showCard(index) {
@@ -49,22 +55,11 @@ document.addEventListener("DOMContentLoaded", function() {
   showCard(currentIndex);
 
   // Crea e aggiungi event listener per i pulsanti "Next" e "Previous"
-  const nextButton = document.createElement('button');
-  nextButton.textContent = 'Successivo';
-  nextButton.addEventListener('click', nextCard);
+  const button1= document.getElementById('next').addEventListener("click", nextCard);
 
-  const prevButton = document.createElement('button');
-  prevButton.textContent = 'Precedente';
-  prevButton.addEventListener('click', prevCard);
-
-  // Crea un contenitore per i pulsanti e aggiungilo al documento
-  const buttonContainer = document.createElement('div');
-  buttonContainer.appendChild(prevButton);
-  buttonContainer.appendChild(nextButton);
-  document.body.appendChild(buttonContainer);
+  const button2= document.getElementById('previous').addEventListener("click", prevCard);
 });
 </script>
-</section>
 
 <style>
 main{
@@ -86,6 +81,7 @@ main{
 #cardHolder{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
