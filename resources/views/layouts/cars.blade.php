@@ -12,7 +12,7 @@
 @endforeach
 <button id="next">Successiva</button>
 <button id="previous">Precedente</button>
-<audio controls autoplay>
+<audio id="player" controls autoplay>
   <source src="{{ asset('songs/AnOldBassman.mp3') }}" type="audio/mpeg">
 Il tuo browser non supporta il formato audio.
 </audio>
@@ -69,7 +69,7 @@ main{
 .card{
     background-color: rgba(119, 118, 118, 0.466);
     width: 50%;
-    height: 50%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,6 +86,23 @@ main{
     align-items: center;
     height: 100vh;
     width: 100vw;
+    position: relative;
+}
+#next{
+  position: absolute;
+  left: 70%;
+  bottom: 9%;
+}
+#previous{
+  position: absolute;
+  left: 25%;
+  bottom: 9%;
+}
+#player{
+  position: absolute;
+  right: 4%;
+  top: 7%;
+  display: none;
 }
 </style>
 @endsection
