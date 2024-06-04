@@ -80,7 +80,7 @@ class CarSeeder extends Seeder
             [
                 'name' => 'Silvia',
                 'raceCar'=>'0',
-                'image'=> '3000gt.jpg',
+                'image'=> 'Silvia.jpg',
                 'maker' => 'Nissan',
                 'power' => 'Varia a seconda della versione',
                 'drivetrain' => 'RWD',
@@ -98,7 +98,7 @@ class CarSeeder extends Seeder
             [
                 'name' => 'RX-8',
                 'raceCar'=>'0',
-                'image'=> '3000gt.jpg',
+                'image'=> 'Rx8.jpg',
                 'maker' => 'Mazda',
                 'power' => 'Varia a seconda della versione',
                 'drivetrain' => 'RWD',

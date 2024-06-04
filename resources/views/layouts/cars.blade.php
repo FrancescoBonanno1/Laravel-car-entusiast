@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <section id="cardHolder">
+  {{-- <button id="RaceB">Race Button</button> --}}
 @foreach ($cars as $car)
 <div class="card">
     <h1>{{$car->name}}</h1>
@@ -59,6 +60,17 @@ Il tuo browser non supporta il formato audio.
 
   const button2= document.getElementById('previous').addEventListener("click", prevCard);
 });
+
+function RaceMode(index) {
+    cards.forEach((card, i) => {
+      if (i === index && cards.raceCar == true) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+      const button3 = document.getElementById('RaceB').addEventListener("click", RaceMode);
+    })};
+
 </script>
 
 <style>
