@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController; //<---- Import del controller precedentemente creato!
 use App\Http\Controllers\CarController;
+use App\Http\Controllers\PassionModelController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +21,7 @@ Route::get('/', function () {
 
 });
 Route::get('/cars', [CarController::class, 'index'])->name('cars');
+Route::get('/passion', [PassionModelController::class,'index'])->name('passion');
 
 Route::middleware(['auth'])
     ->prefix('admin') //definisce il prefisso "admin/" per le rotte di questo gruppo
