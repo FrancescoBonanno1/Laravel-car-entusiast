@@ -156,7 +156,7 @@ class CarSeeder extends Seeder
                 'maker' => 'Lancia',
                 'power' => '400 hp',
                 'drivetrain' => 'RWD',
-                'description' => 'L alfa romeo 155 SuperTurismo è passata alla storia per essere stata l incubo degli ingegneri tedeschi durante il campionato DTMl, equipafggiata con un sistema di trazione integrale ed un motore da 400cv 2,5 litri. Nota a molti appassionati italiani anche la vicenda di Alessandro Nannini a Singen (Ha fatto bene!).',
+                'description' => 'La Lancia Stratos HF, spesso chiamata semplicemente "Stratos", fu sviluppata per le competizioni di rally. Il progetto nacque grazie alla collaborazione tra Lancia e il famoso designer Marcello Gandini della Bertone, che disegnò una concept car presentata al Salone di Torino del 1970. La Stratos era dotata di un motore V6 di 2.4 litri proveniente dalla Ferrari Dino, capace di erogare circa 190 cavalli nella versione stradale e fino a 280 cavalli nella versione da competizione.',
             ],
         ];
 
