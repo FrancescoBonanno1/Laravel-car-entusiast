@@ -63,5 +63,10 @@ class PassionSeeder extends Seeder
 
 
         ];
+        foreach ($passions as $passion) {
+            $newPassion = new PassionModel();
+            $newPassion->fill($passion);
+            $newPassion->save();
+        }
     }
 }

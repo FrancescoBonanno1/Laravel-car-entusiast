@@ -12,7 +12,8 @@ class PassionModelController extends Controller
      */
     public function index()
     {
-        
+        $passions = PassionModel::all();
+        return view('layouts.passion', compact('passions'));
     }
 
     /**
