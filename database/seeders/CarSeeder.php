@@ -157,7 +157,7 @@ class CarSeeder extends Seeder
                 'power' => '400 hp',
                 'drivetrain' => 'RWD',
                 'description' => 'La Lancia Stratos HF, spesso chiamata semplicemente "Stratos", fu sviluppata per le competizioni di rally. Il progetto nacque grazie alla collaborazione tra Lancia e il famoso designer Marcello Gandini della Bertone, che disegnò una concept car presentata al Salone di Torino del 1970. La Stratos era dotata di un motore V6 di 2.4 litri proveniente dalla Ferrari Dino, capace di erogare circa 190 cavalli nella versione stradale e fino a 280 cavalli nella versione da competizione.',
-            ],
+            ]
         ];
 
         foreach ($cars as $car) {
